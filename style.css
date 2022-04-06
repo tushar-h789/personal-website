@@ -1,6 +1,61 @@
 body{
+    font-family: 'Oswald', sans-serif;
 
 }
-.h1{
-    color: red;
+.name-highlight{
+    font-size: 35px;
+    color:rgb(156, 13, 122) ;
+
+}
+p{
+    color: rgb(68, 66, 63);
+}
+.half-width{
+    width: 30%;
+    margin-left: 15%;
+    padding-left: 1%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.button-link{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, rgb(235, 14, 132), tomato);
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+section{
+    height: 600px;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+h1 work-position{
+    text-align: center;
+}
+.work-pic{
+    width: 20%;
+    float: left;
+    margin: 2%;
+    padding-left: 3%;
+}
+.work-pic img{
+    width: 100%;
+}
+h1{
+    font-size: 30px;
 }
